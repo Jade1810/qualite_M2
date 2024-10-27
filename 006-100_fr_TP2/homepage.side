@@ -1,0 +1,307 @@
+{
+  "id": "a51301b4-51d7-451c-9991-a63d168fd624",
+  "version": "2.0",
+  "name": "TEST4",
+  "url": "https://www.google.fr",
+  "tests": [{
+    "id": "5c300edb-c5aa-4829-81fb-83db88318cb1",
+    "name": "snippet",
+    "commands": [{
+      "id": "0664cbab-326f-4405-9d36-c17e4ae7fdb8",
+      "comment": "",
+      "command": "open",
+      "target": "https://google-gruyere.appspot.com/start",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d1c5569-29b7-4ff2-b63d-f39f255ad718",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "706x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28edeb0c-dd52-4ebc-8598-1763d45b7576",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Resume",
+      "targets": [
+        ["linkText=Resume", "linkText"],
+        ["css=h2:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Resume')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/502192507448755657527443533760818084116')]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Resume')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2300f82c-477b-4777-8786-a6c5cde8fde2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign out",
+      "targets": [
+        ["linkText=Sign out", "linkText"],
+        ["css=#menu-right > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign out')]", "xpath:link"],
+        ["xpath=//span[@id='menu-right']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/502192507448755657527443533760818084116/logout')]", "xpath:href"],
+        ["xpath=//span[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e1324b5-af3d-412a-a599-2e8368daaa58",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=#menu-right > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//span[@id='menu-right']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/502192507448755657527443533760818084116/login')]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba68f5e3-0646-4b2c-8eba-6fd4300a2edc",
+      "comment": "",
+      "command": "click",
+      "target": "name=uid",
+      "targets": [
+        ["name=uid", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='uid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9e559c6-9f44-4314-bdae-a102e5db15be",
+      "comment": "",
+      "command": "type",
+      "target": "name=uid",
+      "targets": [
+        ["name=uid", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='uid']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "toto"
+    }, {
+      "id": "9502b570-07b5-4572-9126-eb5f8f2d85eb",
+      "comment": "",
+      "command": "store",
+      "target": "toto",
+      "targets": [],
+      "value": "User"
+    }, {
+      "id": "3a489d4f-864d-43aa-beb9-b4c9231a5ec8",
+      "comment": "",
+      "command": "click",
+      "target": "name=pw",
+      "targets": [
+        ["name=pw", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='pw']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0229c83-c35d-4a6e-bcb6-56bf0f77c229",
+      "comment": "",
+      "command": "type",
+      "target": "name=pw",
+      "targets": [
+        ["name=pw", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='pw']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "toto"
+    }, {
+      "id": "5425070c-6d26-4a72-a558-3ca672e39aa6",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) input",
+      "targets": [
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cc5298d-e03c-47ce-bad9-31cea12405e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > td:nth-child(3)",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(3)", "css:finder"],
+        ["xpath=//td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8998072d-7256-4cf3-9beb-fcc00151a99f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=New Snippet",
+      "targets": [
+        ["linkText=New Snippet", "linkText"],
+        ["css=#menu-left > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'New Snippet')]", "xpath:link"],
+        ["xpath=//span[@id='menu-left']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/502192507448755657527443533760818084116/newsnippet.gtl')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'New Snippet')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d113bc2-3f74-48a5-bb98-d670a6a66632",
+      "comment": "",
+      "command": "click",
+      "target": "name=snippet",
+      "targets": [
+        ["name=snippet", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='snippet']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b54bbf4e-4bac-45e0-8be5-4d207e18c0f9",
+      "comment": "",
+      "command": "type",
+      "target": "name=snippet",
+      "targets": [
+        ["name=snippet", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='snippet']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Trop bon le fromage"
+    }, {
+      "id": "34fe59e5-1aa7-4f2e-8c9c-1c742cc8990a",
+      "comment": "",
+      "command": "store",
+      "target": "Trop bon le fromage",
+      "targets": [],
+      "value": "snippetText"
+    }, {
+      "id": "b906f96c-bbc6-439e-8b9b-9be279bf5a7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "000c8b77-ccc6-44f5-876c-25c4bb939dd6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79e4d3c3-2374-46b7-878a-6f40bc584871",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//*[@id=\"${User}\" and contains(text(),'${snippetText}')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6e1eb6c-ea0c-41d9-979a-2aa3b898d808",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"Snippet: \" + ${snippetText};",
+      "targets": [],
+      "value": "formattedSnippetText"
+    }, {
+      "id": "e8867877-1200-410b-bab2-ffbccf4d815d",
+      "comment": "",
+      "command": "echo",
+      "target": "${formattedSnippetText}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0071a204-379c-46e1-b720-79b9cdb14684",
+    "name": "Homepage",
+    "commands": [{
+      "id": "e6ec0732-2849-402c-9596-2d56d767c0b3",
+      "comment": "",
+      "command": "open",
+      "target": "https://google-gruyere.appspot.com/start",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cefb5184-a629-43b4-bd64-90e6200cf0a5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "706x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb32087f-c299-498d-9eb3-0aaf904cc4e5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Resume",
+      "targets": [
+        ["linkText=Resume", "linkText"],
+        ["css=h2:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Resume')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/502192507448755657527443533760818084116')]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Resume')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e139f62-c523-4503-bd77-746bbe300235",
+      "comment": "",
+      "command": "storeAttribute",
+      "target": "xpath=/html/body/div[3]/table/tbody/tr[2]/td[3]/a[2]@href",
+      "targets": [],
+      "value": "homepageLink"
+    }, {
+      "id": "8ec67229-d42f-4fa9-85b2-3b1501aacb8d",
+      "comment": "",
+      "command": "verify",
+      "target": "${homepageLink}",
+      "targets": [],
+      "value": "https://images.google.com/?q=cheddar+cheese"
+    }, {
+      "id": "332c4e6a-eef7-472f-9373-6337c1dff6b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Homepage",
+      "targets": [
+        ["linkText=Homepage", "linkText"],
+        ["css=tr:nth-child(2) a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Homepage')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://images.google.com/?q=cheddar+cheese')]", "xpath:href"],
+        ["xpath=//td[3]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Homepage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9c02ab7-d42a-4740-bc89-88e562392acf",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "532c67ef-df69-46a7-8aa9-0990c3397f1c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.google.fr/"],
+  "plugins": []
+}
